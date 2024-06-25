@@ -22,5 +22,5 @@ class menu(models.Model):
     
 class UserComments(models.Model):
     first_name = models.CharField(max_length=200)
-    last_name = models.CharField(max_length=200) 
-    comments = models.CharField(max_length=1000)   
+    last_name = models.CharField(max_length=200)
+    comments = models.CharField(max_length=1000)
